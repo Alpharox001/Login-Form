@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <a href="homepage.html" class="logo">Techniqa Inc.</a>
+
+        <ul class="navigation">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Privacy</a></li>
+        </ul>     
+        </nav>
+        
+
+    </header>
+
+    <div class="login-wrapper">
+        <form class="form" >
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for = "loginUser">Username</label>
+                <input type="text" name="loginUser" id="loginUser" required>
+            </div>
+    
+            <div class="input-group">
+                <label for = "loginPassword">Password</label>
+                <input type="password" name="loginPassword" id="loginPassword" required>
+                <div>
+                    <a href="">forgot password ?</a>
+                </div>
+            </div>
+            
+            <br>
+
+            <div>
+                <input type="checkbox" checked="checked">Remember Me ?</input><br>
+                <button id="submit">Login</button>
+            </div>
+    
+            <div>
+                Don't have an account ?
+                <a href="register.html">Sign up</a>
+            
+            </div>
+        </form>
+    </div>
+</body>
+</html>
